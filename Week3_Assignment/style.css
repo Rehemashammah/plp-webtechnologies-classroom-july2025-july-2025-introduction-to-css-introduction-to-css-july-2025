@@ -1,0 +1,51 @@
+/* General styles for the whole page */
+body {
+    font-family: Arial,sans-serif; /*Makes text look nice*/
+    background-color: lightblue; /*Sets background color*/
+    margin: 0px;
+    padding: 30px;
+}
+
+/* Header styles */
+header {
+    background-color: whitesmoke; /*Sets header background color*/
+    padding: 20px;
+    border:2px solid coral; /*Adds border to header*/
+    margin-bottom: 20px;
+}
+
+/*Headings */
+h1 {
+    color: green; /*Sets heading color*/
+    font-size: 36px; /*Sets font size*/
+    margin:0;
+}
+
+h2 {
+    color: purple; /*Sets subheading color*/
+
+}
+
+/* Paragraphs */
+p{
+    font-size:18px;
+    line-height: 1.5;
+}
+
+/*Card section*/
+.card {
+    background-color: white; /*Card background color*/
+    border: 2px solid #cccccc; /*Card border*/
+    border-radius: 10px; /*Rounded corners*/
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /*Adds shadow effect*/
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightpeachpuff; /*Footer background color*/
+    border:2px solid coral; /*Adds border to footer*/
+    margin-top: 20px;
+}
